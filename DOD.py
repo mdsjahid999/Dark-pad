@@ -42,14 +42,14 @@ except ImportError:
 
 android_models=[]
 try:
-    xx = requests.get('https://https://github.com/mdsjahid999/DARK-PAID/blob/main/Approval.txt').text.splitlines()
+    xx = requests.get('https://github.com/mdsjahid999/Dark-pad/blob/main/Approvle1.txt').text.splitlines()
     for line in xx:
         android_models.append(line)
 except:pass
 
 usr=[]
 try:
-    xd=requests.get('https://github.com/mdsjahid999/DARK-PAID/blob/main/Approval.txt').text.splitlines()
+    xd=requests.get('https://github.com/mdsjahid999/Dark-pad/blob/main/Approvle1.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
